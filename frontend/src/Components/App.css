@@ -1,0 +1,73 @@
+.main{
+  background-color: #79baf0;
+  border: 1px solid red;
+  height: 1000px;
+}
+.list
+{
+  
+  margin:10% 30% 0 35%;
+  width:400px;
+  list-style: none;
+  text-align: center;
+}
+.plan
+{
+  font-size: 24px;
+}
+.itemPurchased,.pButton,.delButton
+{
+  padding: 5px;
+}
+.enter
+{
+  margin: 10px 0 0 0px;
+  height: 50px;
+  width:350px;
+}
+.data
+{
+  width:fit-content;
+  height: fit-content;
+  margin-left: 25px;
+  
+}
+.items
+{
+  background-color: gray;
+  display: flex;
+  margin-top: 3px;
+  width:350px;
+}
+.head
+{
+  background-color: #2d2d4d;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.flexC
+{
+  display: flex;
+  margin-left: 10px;
+}
+.flexC .pButton
+{
+  margin-left: 10px;
+}
+.flexC .delButton
+{
+  margin-left: 0px;
+}
+.buttons
+{
+  display: flex;
+}
+.all{
+  width: 150px;
+  color: white;
+}
