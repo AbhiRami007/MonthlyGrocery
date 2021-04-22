@@ -22,7 +22,7 @@ const GroceryList = (props) => {
                         
                     </p>
                     <div className="buttons">
-                    <div className="pButton"><button type="submit"  key={item._id} onClick={props.purchasedItem.bind(this,item)}>
+                    <div className="pButton"><button id="pbtn" type="submit"  key={item._id} onClick={props.purchasedItem.bind(this,item)}>
                         Purchased</button></div>
                     <div className="delButton"><button type="submit" key={item._id} onClick={props.deleteItem.bind(this,item)}>X</button></div>
                 </div>
@@ -33,8 +33,10 @@ const GroceryList = (props) => {
     </div>
     
     </div> );
-    
 }
+    
+      
+
 
  
 export default GroceryList;
